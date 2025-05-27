@@ -6,12 +6,11 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   const quickLinks = [
-    { name: "Homepage", href: "#" },
-    { name: "About Us", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Leadership", href: "#" },
-    { name: "Media", href: "#" },
-    { name: "Contact Us", href: "#contact" },
+    { name: "Homepage", href: "/" },
+    { name: "About Us", href: "/about" },
+    { name: "Services", href: "/services" },
+    { name: "Leadership", href: "/leadership" },
+    { name: "Contact Us", href: "/contact" },
   ]
 
   const services = [
@@ -25,8 +24,6 @@ export default function Footer() {
   const legalLinks = [
     { name: "Privacy Policy", href: "#" },
     { name: "Terms of Service", href: "#" },
-    { name: "Cookie Policy", href: "#" },
-    { name: "Compliance", href: "#" },
   ]
 
   const socialLinks = [
@@ -69,7 +66,7 @@ export default function Footer() {
             <div className="lg:col-span-1">
               <div className="mb-6">
                 <img
-                  src="/images/smartkash-logo.jpg"
+                  src="/images/smartkash-logo.png"
                   alt="SmartKash Network Financial Services"
                   className="h-12 w-auto mb-4"
                 />
@@ -179,8 +176,8 @@ export default function Footer() {
               © {currentYear} SmartKash Network Financial Services. All Rights Reserved.
             </div>
             <div className="flex items-center space-x-6 text-sm text-gray-400">
-              <span>CBN: 2668908</span>
-              <span>•</span>
+              {/* <span>CBN: 2668908</span> */}
+              {/* <span>•</span> */}
               <span>Licensed by CBN</span>
               <span>•</span>
               <span>NDIC Insured</span>

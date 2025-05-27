@@ -32,7 +32,7 @@ A modern, responsive fintech website built with Next.js, React, and Tailwind CSS
 1. Clone the repository:
 \`\`\`bash
 git clone <repository-url>
-cd immaculate-fintech-website
+cd smartkash
 \`\`\`
 
 2. Install dependencies:
