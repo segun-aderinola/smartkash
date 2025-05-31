@@ -160,3 +160,219 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #a8a8a8;
 }
+
+.hero-image-container {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Ensure no gaps from parent elements */
+section {
+  overflow: hidden;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Animation Classes */
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+/* Mobile-specific optimizations */
+@media (max-width: 640px) {
+  .animate-float {
+    animation: float 4s ease-in-out infinite;
+  }
+}
+
+/* Prevent horizontal scroll on mobile */
+.overflow-hidden {
+  overflow-x: hidden;
+}
+
+/* Super Responsive Hero Image Container */
+/* Extra Small Phones (375px and below) */
+@media (max-width: 375px) {
+  .hero-image-container {
+    height: 200px !important;
+  }
+}
+
+/* Small Phones (376px - 480px) */
+@media (min-width: 376px) and (max-width: 480px) {
+  .hero-image-container {
+    height: 250px !important;
+  }
+}
+
+/* Large Phones (481px - 640px) */
+@media (min-width: 481px) and (max-width: 640px) {
+  .hero-image-container {
+    height: 300px !important;
+  }
+}
+
+/* Tablets Portrait (641px - 768px) */
+@media (min-width: 641px) and (max-width: 768px) {
+  .hero-image-container {
+    height: 350px !important;
+  }
+}
+
+/* Tablets Landscape (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-image-container {
+    height: 500px !important;
+  }
+}
+
+/* Small Laptops (1025px - 1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .hero-image-container {
+    height: 500px !important;
+  }
+}
+
+/* Large Screens (1281px and above) */
+@media (min-width: 1281px) {
+  .hero-image-container {
+    height: 100vh !important;
+  }
+}
+
+/* Additional Responsive Enhancements */
+
+/* Floating Elements Responsive Positioning */
+@media (max-width: 480px) {
+  .hero-floating-stats {
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+  }
+  
+  .hero-floating-stats .stat-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .hero-floating-stats .stat-text {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .hero-floating-stats {
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  
+  .hero-floating-stats .stat-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+  .hero-floating-stats .stat-text {
+    font-size: 0.875rem;
+  }
+}
+
+/* Background Image Optimization */
+.hero-background-image {
+  background-attachment: scroll; /* Better performance on mobile */
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Smooth Slide Transitions */
+.hero-slide-transition {
+  transition: opacity 500ms ease-in-out;
+}
+
+/* Enhanced Button Responsiveness */
+@media (max-width: 480px) {
+  .hero-cta-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .hero-cta-button {
+    padding: 0.875rem 2rem;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .hero-cta-button {
+    padding: 1rem 2.5rem;
+    font-size: 1.125rem;
+  }
+}
+
+/* Slide Indicators Responsive */
+@media (max-width: 640px) {
+  .hero-slide-indicator {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+}
+
+@media (min-width: 641px) {
+  .hero-slide-indicator {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+/* Performance Optimizations */
+.hero-section {
+  contain: layout style paint;
+  will-change: transform;
+}
+
+.hero-parallax-element {
+  will-change: transform;
+  transform: translateZ(0); /* Hardware acceleration */
+}
+
+/* Accessibility Improvements */
+@media (prefers-reduced-motion: reduce) {
+  .animate-float,
+  .animate-marquee,
+  .hero-parallax-element {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+/* High DPI Display Optimizations */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .hero-background-image {
+    background-size: cover;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}

@@ -60,7 +60,7 @@ export default function LeadershipPage() {
     {
       name: "Yomi Alale",
       position: "Chairman",
-      image: "/api/placeholder/300/400",
+      image: "/images/yomi_alale.jpeg",
       bio: "Leading with vision and strategic expertise, driving organizational excellence and sustainable growth.",
       isExecutive: true
     },
