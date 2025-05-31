@@ -110,21 +110,14 @@ export default function Navbar() {
               Services
             </Link>
             <Link 
-              href="#" 
+              href="/leadership" 
               className="block px-4 py-3 text-gray-700 hover:text-blue-600 text-base font-semibold hover:bg-blue-50 rounded-lg transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Leadership
             </Link>
             <Link 
-              href="#" 
-              className="block px-4 py-3 text-gray-700 hover:text-blue-600 text-base font-semibold hover:bg-blue-50 rounded-lg transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Media
-            </Link>
-            <Link 
-              href="#contact" 
+              href="/contact" 
               className="block px-4 py-3 text-gray-700 hover:text-blue-600 text-base font-semibold hover:bg-blue-50 rounded-lg transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
