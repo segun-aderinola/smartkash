@@ -472,9 +472,9 @@ export default function ServicesPage() {
                   <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto text-white shadow-lg group-hover:scale-110 transition-transform duration-300">
                     {item.icon}
                   </div>
-                  <div className="absolute -top-2 -right-2 w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center text-white text-md font-bold">
+                  {/* <div className="absolute -top-2 -right-2 w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center text-white text-md font-bold">
                     {item.step}
-                  </div>
+                  </div> */}
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 mb-3">{item.title}</h3>
                 <p className="text-gray-600 text-md leading-relaxed">{item.description}</p>
