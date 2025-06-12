@@ -325,6 +325,7 @@ import {
   Building,
   Smartphone,
 } from "lucide-react"
+import Link from "next/link"
 
 export default function AboutPage() {
   const observerRef = useRef<IntersectionObserver | null>(null)
@@ -670,13 +671,16 @@ export default function AboutPage() {
             Let's navigate the financial landscape together. With our expertise and your vision, the possibilities are
             endless.
           </p>
-          <Button
-            size="lg"
-            className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
-          >
-            Start Your Journey
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
+          <Link href="/services">
+            <Button
+              size="lg"
+              className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              Start Your Journey
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </Link>
+          
         </div>
       </section>
 

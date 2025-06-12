@@ -25,7 +25,7 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-10">
+            <div className="mr-40 flex items-baseline space-x-10">
               <Link
                 href="/"
                 className="text-gray-700 hover:text-blue-600 px-4 py-3 text-base font-semibold transition-colors hover:bg-blue-50 rounded-lg"
@@ -65,13 +65,16 @@ export default function Navbar() {
             </div>
           </div>
 
-          <div className="hidden md:block">
-            <Button 
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
-            >
-              Get Started
-            </Button>
-          </div>
+          {/* <div className="hidden md:block">
+            <Link href="/contact">
+              <Button 
+                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+              >
+                Get Started
+              </Button>
+            </Link>
+
+          </div> */}
 
           <div className="md:hidden">
             <button 
@@ -123,12 +126,14 @@ export default function Navbar() {
             >
               Contact Us
             </Link>
-            <Button 
-              className="w-full mt-6 bg-blue-600 hover:bg-blue-700 text-white py-3 text-base font-semibold rounded-full shadow-lg"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Get Started
-            </Button>
+            {/* <Link href="/contact">
+              <Button 
+                className="w-full mt-6 bg-blue-600 hover:bg-blue-700 text-white py-3 text-base font-semibold rounded-full shadow-lg"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Get Started
+              </Button>
+            </Link> */}
           </div>
         </div>
       )}

@@ -21,6 +21,7 @@ import {
 } from "lucide-react"
 import Footer from "@/components/footer"
 import Navbar from "@/components/navbar"
+import Link from "next/link"
 
 export default function HomePage() {
   const [scrollY, setScrollY] = useState(0)
@@ -232,13 +233,15 @@ export default function HomePage() {
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                  <Button
-                    size="lg"
-                    className="bg-white text-gray-900 hover:bg-gray-100 px-6 sm:px-8 lg:px-10 py-3 sm:py-3.5 lg:py-4 rounded-full text-md sm:text-base lg:text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
-                  >
-                    Start Your Journey
-                    <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
-                  </Button>
+                  <Link href="/services" className="w-full sm:w-auto">
+                    <Button
+                      size="lg"
+                      className="bg-white text-gray-900 hover:bg-gray-100 px-6 sm:px-8 lg:px-10 py-3 sm:py-3.5 lg:py-4 rounded-full text-md sm:text-base lg:text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+                    >
+                      Start Your Journey
+                      <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
+                    </Button>
+                  </Link>
                 </div>
               </div>
 
@@ -364,11 +367,12 @@ export default function HomePage() {
                   meaningful relationships built on trust and integrity.
                 </p>
               </div>
-
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 lg:px-10 py-3 sm:py-3.5 lg:py-4 rounded-full text-md sm:text-base lg:text-lg">
-                Learn More About Us
-                <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
-              </Button>
+              <Link href="/about">
+                <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 lg:px-10 py-3 sm:py-3.5 lg:py-4 rounded-full text-md sm:text-base lg:text-lg">
+                  Learn More About Us
+                  <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
+                </Button>
+              </Link>
             </div>
 
             <div className="relative">
@@ -481,13 +485,15 @@ export default function HomePage() {
             Let's navigate the financial landscape together. With our expertise and your vision, the possibilities are
             endless.
           </p>
-          <Button
-            size="lg"
-            className="bg-white text-blue-600 hover:bg-gray-100 px-6 sm:px-8 lg:px-10 py-3 sm:py-4 lg:py-5 rounded-full text-base sm:text-lg lg:text-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
-          >
-            Start Your Journey
-            <ArrowRight className="ml-2 h-5 w-5 sm:h-6 sm:w-6" />
-          </Button>
+          <Link href="/services">
+            <Button
+              size="lg"
+              className="bg-white text-blue-600 hover:bg-gray-100 px-6 sm:px-8 lg:px-10 py-3 sm:py-4 lg:py-5 rounded-full text-base sm:text-lg lg:text-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              Start Your Journey
+              <ArrowRight className="ml-2 h-5 w-5 sm:h-6 sm:w-6" />
+            </Button>
+          </Link>
         </div>
       </section>
 
