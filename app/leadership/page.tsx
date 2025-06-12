@@ -341,14 +341,6 @@ export default function LeadershipPage() {
                     <ArrowRight className="ml-3 h-6 w-6" />
                   </Button>
                 </Link>
-                {/* <Button
-                  size="lg"
-                  variant="outline"
-                  className="border-white text-white hover:bg-white hover:text-blue-600 px-10 py-5 rounded-full text-xl font-semibold"
-                >
-                  Contact Leadership
-                  <Mail className="ml-3 h-6 w-6" />
-                </Button> */}
               </div>
             </div>
           </div>
