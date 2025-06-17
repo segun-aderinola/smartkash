@@ -1,11 +1,9 @@
-import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { GraduationCap, Briefcase, Award, Mail } from "lucide-react"
+import { GraduationCap, Briefcase, Award } from "lucide-react"
 import Footer from "@/components/footer"
 import Navbar from "@/components/navbar"
-import Link from "next/link"
 
-export default function BelloOluwatoyinLoisPage() {
+export default function OlufemiAwojobiPage() {
   return (
     <>
       <Navbar />
@@ -19,8 +17,8 @@ export default function BelloOluwatoyinLoisPage() {
                 <div className="relative w-full max-w-md mx-auto lg:mx-0">
                   <div className="aspect-[4/5] overflow-hidden rounded-lg shadow-2xl">
                     <img
-                      src="/images/Bello_Oluwatoyin_Lois.JPG"
-                      alt="Bello Oluwatoyin Lois"
+                      src="/images/olufemi_awojobi.jpeg"
+                      alt="Olufemi Awojobi"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -29,8 +27,8 @@ export default function BelloOluwatoyinLoisPage() {
 
               {/* Content */}
               <div className="order-2 lg:order-2">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Bello Oluwatoyin Lois</h1>
-                <p className="text-xl md:text-2xl mb-6 opacity-90">Executive Director</p>
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Olufemi Awojobi</h1>
+                <p className="text-xl md:text-2xl mb-6 opacity-90">Chairman</p>
               </div>
             </div>
           </div>
@@ -42,28 +40,37 @@ export default function BelloOluwatoyinLoisPage() {
             <div className="prose prose-lg max-w-none">
               <div className="text-gray-700 leading-relaxed space-y-6 text-lg">
                 <p>
-                  Bello Oluwatoyin Lois is a dedicated professional with a Bachelor of Science degree in Geography
-                  Science and a Chartered Certificate in Management. Her academic background provides her with a solid
-                  foundation in spatial analysis and environmental management, while her management certification has
-                  honed her leadership and strategic planning skills.
+                  Olufemi Awojobi brings over three decades of leadership experience spanning the financial services,
+                  consultancy, and education sectors. As Chairman, he provides strategic oversight and governance to
+                  ensure sustainable growth, sound financial management, and impactful stakeholder engagement.
                 </p>
 
                 <p>
-                  She currently serves as Financial Controller at SmartKash Financials, where she oversees financial
-                  operations, budgeting, and reporting to ensure the company's financial health and compliance. Her
-                  diverse background spans various capacities including administration, production management, customer
-                  service, and marketing.
+                  Olufemi is a Fellow of the Chartered Association of Certified Accountants (FCCA) and a Fellow of the
+                  Institute of Chartered Accountants of Nigeria (FCA). Olufemi is a seasoned SAP Financial Consultant,
+                  having led major system implementation projects for blue-chip clients in the UK, including Diageo,
+                  Boots, and AstraZeneca, during his tenure at Infosys Ltd.
                 </p>
 
                 <p>
-                  With extensive experience at Yagocom Nigeria Limited in multiple roles - from Administrator to
-                  Production/Purchasing Manager, Customer Service Manager, and Marketing Executive - she brings a
-                  comprehensive understanding of business operations and client relationship management.
+                  His earlier career includes nearly two decades as Senior Manager (Operations) at Action for Children,
+                  where he managed national programmes with a budget exceeding £200 million and led cross-functional
+                  teams across the UK.
                 </p>
 
                 <p>
-                  Her passion for driving sustainable growth and contributing to innovative solutions within the
-                  financial industry makes her an invaluable asset to the SmartKash leadership team.
+                  In addition to his extensive industry experience, Olufemi is deeply committed to education and talent
+                  development. He currently serves as a Lecturer in Accounting at Coventry University UK, where he
+                  teaches across undergraduate levels and specialises in accounting, finance, and business strategy. He
+                  holds an MBA, a BSc in Business Management (First Class Honours), and is pursuing a PhD in Leadership
+                  and Policy at Coventry University.
+                </p>
+
+                <p>
+                  Olufemi has also held several governance roles in the voluntary sector, including serving as Treasurer
+                  and Director for organisations focused on housing, social impact, and health awareness. His broad
+                  expertise in finance, leadership, and education makes him a great asset in guiding Smart Kash
+                  Financials' strategic direction.
                 </p>
               </div>
             </div>
@@ -84,9 +91,12 @@ export default function BelloOluwatoyinLoisPage() {
                     <h3 className="text-xl font-bold text-gray-900">Education</h3>
                   </div>
                   <ul className="space-y-4">
-                    <li className="text-gray-700 pl-4 border-l-2 border-blue-100">BSc Geography Science</li>
                     <li className="text-gray-700 pl-4 border-l-2 border-blue-100">
-                      Chartered Certificate in Management
+                      PhD in Leadership and Policy (Pursuing) - Coventry University
+                    </li>
+                    <li className="text-gray-700 pl-4 border-l-2 border-blue-100">MBA - Coventry University</li>
+                    <li className="text-gray-700 pl-4 border-l-2 border-blue-100">
+                      BSc Business Management (First Class Honours)
                     </li>
                   </ul>
                 </CardContent>
@@ -102,14 +112,15 @@ export default function BelloOluwatoyinLoisPage() {
                     <h3 className="text-xl font-bold text-gray-900">Experience</h3>
                   </div>
                   <ul className="space-y-4">
+                    <li className="text-gray-700 pl-4 border-l-2 border-green-100">Chairman - SmartKash Financials</li>
                     <li className="text-gray-700 pl-4 border-l-2 border-green-100">
-                      Executive Director - SmartKash Financials
+                      Lecturer - Coventry University UK
                     </li>
                     <li className="text-gray-700 pl-4 border-l-2 border-green-100">
-                      Financial Controller - Finance Company
+                      SAP Financial Consultant - Infosys Ltd
                     </li>
                     <li className="text-gray-700 pl-4 border-l-2 border-green-100">
-                      Multiple Leadership Roles - Yagocom Nigeria Limited
+                      Senior Manager (Operations) - Action for Children
                     </li>
                   </ul>
                 </CardContent>
@@ -125,8 +136,11 @@ export default function BelloOluwatoyinLoisPage() {
                     <h3 className="text-xl font-bold text-gray-900">Certifications</h3>
                   </div>
                   <div className="space-y-3">
+                    <span className="inline-block text-sm font-medium px-3 py-2 rounded-full bg-purple-100 text-purple-800 mb-2">
+                      Fellow of the Chartered Association of Certified Accountants (FCCA)
+                    </span>
                     <span className="inline-block text-sm font-medium px-3 py-2 rounded-full bg-purple-100 text-purple-800">
-                      Chartered Management Certificate
+                      Fellow of the Institute of Chartered Accountants of Nigeria (FCA)
                     </span>
                   </div>
                 </CardContent>

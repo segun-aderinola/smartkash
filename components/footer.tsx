@@ -79,7 +79,7 @@ export default function Footer() {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <MapPin className="h-4 w-4 text-blue-400 flex-shrink-0" />
-                  <span className="text-md text-gray-300">132/134 Sagamu Road, Ikorodu, Lagos State</span>
+                  <span className="text-md text-gray-300">132 Sagamu Road, Ikorodu, Lagos State</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="h-4 w-4 text-blue-400 flex-shrink-0" />

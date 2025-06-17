@@ -354,20 +354,6 @@ export default function ServicesPage() {
                         </div>
                         <p className="text-md font-semibold text-gray-900">{loan.tenor}</p>
                       </div>
-                      <div>
-                        <div className="flex items-center space-x-2 mb-1">
-                          <Percent className="h-4 w-4 text-purple-600" />
-                          <span className="text-md font-medium text-gray-500">Interest Rate</span>
-                        </div>
-                        <p className="text-md font-semibold text-gray-900">{loan.rate}</p>
-                      </div>
-                      <div>
-                        <div className="flex items-center space-x-2 mb-1">
-                          <Calculator className="h-4 w-4 text-orange-600" />
-                          <span className="text-md font-medium text-gray-500">Processing Fee</span>
-                        </div>
-                        <p className="text-md font-semibold text-gray-900">{loan.fees}</p>
-                      </div>
                     </div>
 
                     {/* Target Borrowers */}
@@ -460,7 +446,7 @@ export default function ServicesPage() {
                 step: "04",
                 title: "Fund Disbursement",
                 description: "Receive funds quickly upon approval",
-                icon: <DollarSign className="h-8 w-8" />,
+                icon: <div className="h-8 w-8 flex items-center justify-center text-4xl font-bold">₦</div>,
               },
             ].map((item, index) => (
               <div

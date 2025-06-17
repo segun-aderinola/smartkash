@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { ArrowRight, Award, Target, Shield, Heart, Mail } from "lucide-react"
+import { ArrowRight, Award, Target, Shield, Heart } from "lucide-react"
 import Footer from "@/components/footer"
 import Navbar from "@/components/navbar"
 import Link from "next/link"
@@ -45,6 +45,13 @@ export default function LeadershipPage() {
 
   const executives = [
     {
+      name: "Olufemi Awojobi",
+      position: "Chairman",
+      image: "/images/olufemi_awojobi.jpeg",
+      slug: "olufemi_awojobi",
+      bio: "Fellow of FCCA and FCA with over three decades of leadership experience spanning financial services, consultancy, and education sectors.",
+    },
+    {
       name: "Yomi Alale",
       position: "MD & CEO",
       image: "/images/Yomi_Alale.JPG",
@@ -54,7 +61,7 @@ export default function LeadershipPage() {
     {
       name: "Bello Oluwatoyin Lois",
       position: "Executive Director",
-      image: "/images/Bello_Oluwatoyin_Lois.jpeg",
+      image: "/images/Bello_Oluwatoyin_Lois.JPG",
       slug: "bello_oluwatoyin_lois",
       bio: "Dedicated professional with expertise in financial management, operations, and strategic planning across multiple business functions.",
     },
@@ -67,7 +74,7 @@ export default function LeadershipPage() {
     },
     {
       name: "Olaniyi Osun",
-      position: "Non Executive Director",
+      position: "Director",
       image: "/images/olaniyi_osun.jpeg",
       slug: "olaniyi_osun",
       bio: "Seasoned security professional with extensive international experience and founder of leading security firms in the UK and Nigeria.",
@@ -258,7 +265,7 @@ export default function LeadershipPage() {
                     <img
                       src={executive.image || "/placeholder.svg?height=400&width=320"}
                       alt={executive.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      className="w-full h-full object-cover object-top rounded-lg group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
 

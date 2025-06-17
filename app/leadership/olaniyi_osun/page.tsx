@@ -18,7 +18,11 @@ export default function OlaniyiOsunPage() {
               <div className="order-1 lg:order-1">
                 <div className="relative w-full max-w-md mx-auto lg:mx-0">
                   <div className="aspect-[4/5] overflow-hidden rounded-lg shadow-2xl">
-                    <img src="/images/olaniyi_osun.jpeg" alt="Olaniyi Osun" className="w-full h-full object-cover" />
+                    <img 
+                      src="/images/olaniyi_osun.jpeg"
+                      alt="Olaniyi Osun"
+                      className="w-full h-full object-cover object-top rounded-lg group-hover:scale-105 transition-transform duration-300"
+                    />
                   </div>
                 </div>
               </div>
@@ -26,7 +30,7 @@ export default function OlaniyiOsunPage() {
               {/* Content */}
               <div className="order-2 lg:order-2">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Olaniyi Osun</h1>
-                <p className="text-xl md:text-2xl mb-6 opacity-90">Non Executive Director</p>
+                <p className="text-xl md:text-2xl mb-6 opacity-90">Director</p>
               </div>
             </div>
           </div>
@@ -105,7 +109,7 @@ export default function OlaniyiOsunPage() {
                   </div>
                   <ul className="space-y-4">
                     <li className="text-gray-700 pl-4 border-l-2 border-green-100">
-                      Non Executive Director - SmartKash Financials
+                      Director - SmartKash Financials
                     </li>
                     <li className="text-gray-700 pl-4 border-l-2 border-green-100">
                       Founder & CEO - First Liberty Security (UK)

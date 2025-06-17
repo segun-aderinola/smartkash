@@ -235,7 +235,7 @@ export default function ContactPage() {
     {
       icon: <MapPin className="h-8 w-8" />,
       title: "Visit Us",
-      content: "132/134 Sagamu Road, Ikorodu",
+      content: "132 Sagamu Road, Ikorodu",
       description: "Besides Jubilee Estate, Lagos State",
       action: "https://maps.google.com/?q=132+Sagamu+Road+Ikorodu+Lagos+Nigeria",
       color: "bg-purple-100 text-purple-600",
@@ -498,9 +498,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">Business Hours</h3>
                       <div className="space-y-1 text-gray-600">
-                        <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
-                        <p>Saturday: 9:00 AM - 4:00 PM</p>
-                        <p>Sunday: Closed</p>
+                        <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
                       </div>
                     </div>
                   </div>
@@ -512,7 +510,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">Our Location</h3>
                       <div className="text-gray-600">
-                        <p>132/134 Sagamu Road, Ikorodu</p>
+                        <p>132 Sagamu Road, Ikorodu</p>
                         <p>Besides Jubilee Estate</p>
                         <p>Lagos State, Nigeria</p>
                       </div>
@@ -548,7 +546,7 @@ export default function ContactPage() {
                   <div className="flex items-start space-x-3">
                     <MapPin className="h-5 w-5 text-blue-600 mt-1" />
                     <div className="text-gray-900 font-medium">
-                      <p>132/134 Sagamu Road, Ikorodu</p>
+                      <p>132 Sagamu Road, Ikorodu</p>
                       <p>Besides Jubilee Estate, Lagos State</p>
                     </div>
                   </div>

@@ -144,12 +144,12 @@ export default function HomePage() {
         "Seed funding, growth capital, and advisory support for innovative startups and high-potential businesses.",
       icon: <Target className="h-12 w-12" />,
     },
-    {
-      title: "Digital Payment Solutions",
-      description:
-        "Digital wallet, merchant services, online payment processing, and cross-border payment solutions.",
-      icon: <Smartphone className="h-12 w-12" />,
-    },
+    // {
+    //   title: "Digital Payment Solutions",
+    //   description:
+    //     "Digital wallet, merchant services, online payment processing, and cross-border payment solutions.",
+    //   icon: <Smartphone className="h-12 w-12" />,
+    // },
   ];
 
   const securityFeatures = [

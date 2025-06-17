@@ -18,7 +18,11 @@ export default function YomiAlalePage() {
               <div className="order-1 lg:order-1">
                 <div className="relative w-full max-w-md mx-auto lg:mx-0">
                   <div className="aspect-[4/5] overflow-hidden rounded-lg shadow-2xl">
-                    <img src="/images/Yomi_Alale.JPG" alt="Yomi Alale" className="w-full h-full object-cover" />
+                    <img
+                      src="/images/Yomi_Alale.JPG"
+                      alt="Yomi Alale" 
+                      className="w-full h-full object-cover object-top rounded-lg group-hover:scale-105 transition-transform duration-300"
+                    />
                   </div>
                 </div>
               </div>
