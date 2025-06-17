@@ -16,7 +16,7 @@ export default function JosephOAlalePage() {
               <div className="order-1 lg:order-1">
                 <div className="relative w-full max-w-md mx-auto lg:mx-0">
                   <div className="aspect-[4/5] overflow-hidden rounded-lg shadow-2xl">
-                    <img src="/images/joseph_alale.jpeg" alt="Joseph O Alale" className="w-full h-full object-cover" />
+                    <img src="/images/joseph_alale.JPG" alt="Joseph O Alale" className="w-full h-full object-cover" />
                   </div>
                 </div>
               </div>

@@ -17,7 +17,7 @@ export default function OlufemiAwojobiPage() {
                 <div className="relative w-full max-w-md mx-auto lg:mx-0">
                   <div className="aspect-[4/5] overflow-hidden rounded-lg shadow-2xl">
                     <img
-                      src="/images/olufemi_awojobi.jpeg"
+                      src="/images/olufemi_awojobi.JPG"
                       alt="Olufemi Awojobi"
                       className="w-full h-full object-cover"
                     />

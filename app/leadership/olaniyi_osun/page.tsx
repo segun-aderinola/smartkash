@@ -19,7 +19,7 @@ export default function OlaniyiOsunPage() {
                 <div className="relative w-full max-w-md mx-auto lg:mx-0">
                   <div className="aspect-[4/5] overflow-hidden rounded-lg shadow-2xl">
                     <img 
-                      src="/images/olaniyi_osun.jpeg"
+                      src="/images/olaniyi_osun.JPG"
                       alt="Olaniyi Osun"
                       className="w-full h-full object-cover object-top rounded-lg group-hover:scale-105 transition-transform duration-300"
                     />

@@ -47,7 +47,7 @@ export default function LeadershipPage() {
     {
       name: "Olufemi Awojobi",
       position: "Chairman",
-      image: "/images/olufemi_awojobi.jpeg",
+      image: "/images/olufemi_awojobi.JPG",
       slug: "olufemi_awojobi",
       bio: "Fellow of FCCA and FCA with over three decades of leadership experience spanning financial services, consultancy, and education sectors.",
     },
@@ -68,14 +68,14 @@ export default function LeadershipPage() {
     {
       name: "Joseph O Alale",
       position: "Advisory Board Member",
-      image: "/images/joseph_alale.jpeg",
+      image: "/images/joseph_alale.JPG",
       slug: "joseph_o_alale",
       bio: "Fellow of the Institute of Chartered Accountants with extensive experience in audit, compliance, and taxation across international markets.",
     },
     {
       name: "Olaniyi Osun",
       position: "Director",
-      image: "/images/olaniyi_osun.jpeg",
+      image: "/images/olaniyi_osun.JPG",
       slug: "olaniyi_osun",
       bio: "Seasoned security professional with extensive international experience and founder of leading security firms in the UK and Nigeria.",
     },
